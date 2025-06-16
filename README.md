@@ -4,31 +4,32 @@
 Aplicação Spring Boot para gerenciamento de uma concessionária de veículos, permitindo cadastro, consulta, atualização e deleção de usuários e carros, com diferentes níveis de acesso (administrador, vendedor e usuário comum).
 
 ## Estrutura de pastas
+```
 concessionariaAPP/
-                    ├── ConcessionariaAppApplication.java
-                    ├── config/
-                    │   └── SecurityConfig.java
-                    ├── controller/
-                    │   ├── AdminController.java
-                    │   ├── CarroController.java
-                    │   ├── UsuarioController.java
-                    │   ├── VendedorController.java
-                    │   └── DTO/
-                    │       ├── CarroDTO/
-                    │       │   └── CadastroCarroDTO.java
-                    │       └── UsuarioDTO/
-                    │           ├── LoginDTO.java
-                    │           └── RegistroDTO.java
-                    ├── model/
-                    │   ├── Carro.java
-                    │   ├── Usuario.java
-                    │   └── enuns/
-                    │       └── Cargo.java
-                    ├── repository/
-                    │   ├── CarroRepository.java
-                    │   └── UsuarioRepository.java
-                    └── seeders/
-                        └── DataSeeder.java
+├── ConcessionariaAppApplication.java
+├── config/
+│   └── SecurityConfig.java
+├── controller/
+│   ├── AdminController.java
+│   ├── CarroController.java
+│   ├── UsuarioController.java
+│   ├── VendedorController.java
+│   └── DTO/
+│       ├── CarroDTO/
+│       │   └── CadastroCarroDTO.java
+│       └── UsuarioDTO/
+│           └── RegistroDTO.java
+├── model/
+│   ├── Carro.java
+│   ├── Usuario.java
+│   └── enuns/
+│       └── Cargo.java
+├── repository/
+│   ├── CarroRepository.java
+│   └── UsuarioRepository.java
+ └── seeders/
+   └── DataSeeder.java
+```
 
 ## Funcionalidades
 
